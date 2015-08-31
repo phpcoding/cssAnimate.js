@@ -1,0 +1,252 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>cssAnimate.js Örnekleri</title>
+	<link rel="stylesheet" href="../css/style.css" />
+	<link href="css/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/jquery.snippet.css" />
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa:700' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+	<div class="download">
+		<a href="https://yadi.sk/d/luuDv1OVik5RH">Örnekleri İndir</a>
+	</div>
+	<div class="OrnekDiv">
+		<div class="title">MouseOver Örneği <span>(zoomIn)</span></div>
+		<div class="content" id="mouseoverli">
+			<li>Deneme Menü Örneği</li>
+			<li>Deneme Menü Örneği</li>
+			<li>Deneme Menü Örneği</li>
+			<li>Deneme Menü Örneği</li>
+			<li>Deneme Menü Örneği</li>
+			<li>Deneme Menü Örneği</li>
+			<li>Deneme Menü Örneği</li>
+			<li>Deneme Menü Örneği</li>
+			<li>Deneme Menü Örneği</li>
+			<li>Deneme Menü Örneği</li>
+			<li>Deneme Menü Örneği</li>
+			<li>Deneme Menü Örneği</li>
+			<li>Deneme Menü Örneği</li>
+			<li>Deneme Menü Örneği</li>
+			<li>Deneme Menü Örneği</li>
+			<li>Deneme Menü Örneği</li>
+		</div>
+		<div class="clear"></div>
+		<div class="code">
+			<pre class="js">$(function () {
+	$('#mouseoverEx li').cssanimate({
+		effect: "tada",
+		action: "mouseover",
+		autocolor: true,
+		duration: 10
+	});
+});</pre>
+		</div>
+	</div>
+
+
+	<div class="OrnekDiv">
+		<div class="title">MouseEnter Örneği <span>(rollIn)</span></div>
+		<div class="content" id="mouseenterli">
+			<li>Deneme Menü Örneği</li>
+			<li>Deneme Menü Örneği</li>
+			<li>Deneme Menü Örneği</li>
+			<li>Deneme Menü Örneği</li>
+			<li>Deneme Menü Örneği</li>
+			<li>Deneme Menü Örneği</li>
+			<li>Deneme Menü Örneği</li>
+			<li>Deneme Menü Örneği</li>
+			<li>Deneme Menü Örneği</li>
+			<li>Deneme Menü Örneği</li>
+			<li>Deneme Menü Örneği</li>
+			<li>Deneme Menü Örneği</li>
+			<li>Deneme Menü Örneği</li>
+			<li>Deneme Menü Örneği</li>
+			<li>Deneme Menü Örneği</li>
+			<li>Deneme Menü Örneği</li>
+		</div>
+		<div class="clear"></div>
+		<div class="code">
+			<pre class="js">$('#mouseenterli li').cssanimate({
+ effect: "rollIn",
+ action: "mouseenter",
+ autocolor: true,
+ infinite: true,
+ duration: 10
+});</pre>
+		</div>
+	</div>
+
+	<div class="OrnekDiv">
+		<div class="title">Click Örneği <span>(hinge)</span></div>
+		<div class="content" id="clickli">
+			<li><img src="https://cdn4.iconfinder.com/data/icons/5-o-clock-shades-icon-set-2/128/PixelKit_5-Oclock-Shades-Icon-Set__0003_15.png" alt="" /></li>
+			<li><img src="https://cdn4.iconfinder.com/data/icons/5-o-clock-shades-icon-set-2/128/PixelKit_5-Oclock-Shades-Icon-Set__0003_15.png" alt="" /></li>
+			<li><img src="https://cdn4.iconfinder.com/data/icons/5-o-clock-shades-icon-set-2/128/PixelKit_5-Oclock-Shades-Icon-Set__0003_15.png" alt="" /></li>
+			<li><img src="https://cdn4.iconfinder.com/data/icons/5-o-clock-shades-icon-set-2/128/PixelKit_5-Oclock-Shades-Icon-Set__0003_15.png" alt="" /></li>
+			<li><img src="https://cdn4.iconfinder.com/data/icons/5-o-clock-shades-icon-set-2/128/PixelKit_5-Oclock-Shades-Icon-Set__0003_15.png" alt="" /></li>
+			<li><img src="https://cdn4.iconfinder.com/data/icons/5-o-clock-shades-icon-set-2/128/PixelKit_5-Oclock-Shades-Icon-Set__0003_15.png" alt="" /></li>
+			<li><img src="https://cdn4.iconfinder.com/data/icons/5-o-clock-shades-icon-set-2/128/PixelKit_5-Oclock-Shades-Icon-Set__0003_15.png" alt="" /></li>
+			<li><img src="https://cdn4.iconfinder.com/data/icons/5-o-clock-shades-icon-set-2/128/PixelKit_5-Oclock-Shades-Icon-Set__0003_15.png" alt="" /></li>
+			<li><img src="https://cdn4.iconfinder.com/data/icons/5-o-clock-shades-icon-set-2/128/PixelKit_5-Oclock-Shades-Icon-Set__0003_15.png" alt="" /></li>
+			<li><img src="https://cdn4.iconfinder.com/data/icons/5-o-clock-shades-icon-set-2/128/PixelKit_5-Oclock-Shades-Icon-Set__0003_15.png" alt="" /></li>
+			<li><img src="https://cdn4.iconfinder.com/data/icons/5-o-clock-shades-icon-set-2/128/PixelKit_5-Oclock-Shades-Icon-Set__0003_15.png" alt="" /></li>
+			<li><img src="https://cdn4.iconfinder.com/data/icons/5-o-clock-shades-icon-set-2/128/PixelKit_5-Oclock-Shades-Icon-Set__0003_15.png" alt="" /></li>
+			<li><img src="https://cdn4.iconfinder.com/data/icons/5-o-clock-shades-icon-set-2/128/PixelKit_5-Oclock-Shades-Icon-Set__0003_15.png" alt="" /></li>
+			<li><img src="https://cdn4.iconfinder.com/data/icons/5-o-clock-shades-icon-set-2/128/PixelKit_5-Oclock-Shades-Icon-Set__0003_15.png" alt="" /></li>
+			<li><img src="https://cdn4.iconfinder.com/data/icons/5-o-clock-shades-icon-set-2/128/PixelKit_5-Oclock-Shades-Icon-Set__0003_15.png" alt="" /></li>
+			<li><img src="https://cdn4.iconfinder.com/data/icons/5-o-clock-shades-icon-set-2/128/PixelKit_5-Oclock-Shades-Icon-Set__0003_15.png" alt="" /></li>
+		</div>
+		<div class="clear"></div>
+		<div class="code">
+			<pre class="js">$('#clickli li').cssanimate({
+ effect: "hinge",
+ action: "click"
+});</pre>
+		</div>
+	</div>
+
+	<div class="OrnekDiv">
+		<div class="title">MouseOver2 Örneği <span>(rotateIn)</span></div>
+		<div class="content" id="mouseoverli2">
+			<li><img src="https://cdn2.iconfinder.com/data/icons/neon-line-social-circles-black/100/Neon_Line_Social_Circles_50Icon_10px_grid-22-128.png" alt="" /></li>
+			<li><img src="https://cdn2.iconfinder.com/data/icons/neon-line-social-circles-black/100/Neon_Line_Social_Circles_50Icon_10px_grid-22-128.png" alt="" /></li>
+			<li><img src="https://cdn2.iconfinder.com/data/icons/neon-line-social-circles-black/100/Neon_Line_Social_Circles_50Icon_10px_grid-22-128.png" alt="" /></li>
+			<li><img src="https://cdn2.iconfinder.com/data/icons/neon-line-social-circles-black/100/Neon_Line_Social_Circles_50Icon_10px_grid-22-128.png" alt="" /></li>
+			<li><img src="https://cdn2.iconfinder.com/data/icons/neon-line-social-circles-black/100/Neon_Line_Social_Circles_50Icon_10px_grid-22-128.png" alt="" /></li>
+			<li><img src="https://cdn2.iconfinder.com/data/icons/neon-line-social-circles-black/100/Neon_Line_Social_Circles_50Icon_10px_grid-22-128.png" alt="" /></li>
+			<li><img src="https://cdn2.iconfinder.com/data/icons/neon-line-social-circles-black/100/Neon_Line_Social_Circles_50Icon_10px_grid-22-128.png" alt="" /></li>
+			<li><img src="https://cdn2.iconfinder.com/data/icons/neon-line-social-circles-black/100/Neon_Line_Social_Circles_50Icon_10px_grid-22-128.png" alt="" /></li>
+			<li><img src="https://cdn2.iconfinder.com/data/icons/neon-line-social-circles-black/100/Neon_Line_Social_Circles_50Icon_10px_grid-22-128.png" alt="" /></li>
+			<li><img src="https://cdn2.iconfinder.com/data/icons/neon-line-social-circles-black/100/Neon_Line_Social_Circles_50Icon_10px_grid-22-128.png" alt="" /></li>
+			<li><img src="https://cdn2.iconfinder.com/data/icons/neon-line-social-circles-black/100/Neon_Line_Social_Circles_50Icon_10px_grid-22-128.png" alt="" /></li>
+			<li><img src="https://cdn2.iconfinder.com/data/icons/neon-line-social-circles-black/100/Neon_Line_Social_Circles_50Icon_10px_grid-22-128.png" alt="" /></li>
+			<li><img src="https://cdn2.iconfinder.com/data/icons/neon-line-social-circles-black/100/Neon_Line_Social_Circles_50Icon_10px_grid-22-128.png" alt="" /></li>
+			<li><img src="https://cdn2.iconfinder.com/data/icons/neon-line-social-circles-black/100/Neon_Line_Social_Circles_50Icon_10px_grid-22-128.png" alt="" /></li>
+			<li><img src="https://cdn2.iconfinder.com/data/icons/neon-line-social-circles-black/100/Neon_Line_Social_Circles_50Icon_10px_grid-22-128.png" alt="" /></li>
+			<li><img src="https://cdn2.iconfinder.com/data/icons/neon-line-social-circles-black/100/Neon_Line_Social_Circles_50Icon_10px_grid-22-128.png" alt="" /></li>
+		</div>
+		<div class="clear"></div>
+		<div class="code">
+			<pre class="js">$('#mouseoverli2 li').cssanimate({
+ effect: "rotateIn",
+ action: "mouseover",
+ autocolor: true
+});</pre>
+		</div>
+	</div>
+
+	<div class="OrnekDiv">
+		<div class="title">DblClick Örneği <span>(rubberBand)</span></div>
+		<div class="content" id="dblclick">
+			<img src="https://cdn2.iconfinder.com/data/icons/iconslandsport/PNG/128x128/Soccer_Ball.png" />
+			<img src="https://cdn2.iconfinder.com/data/icons/iconslandsport/PNG/128x128/Soccer_Ball.png" />
+			<img src="https://cdn2.iconfinder.com/data/icons/iconslandsport/PNG/128x128/Soccer_Ball.png" />
+			<img src="https://cdn2.iconfinder.com/data/icons/iconslandsport/PNG/128x128/Soccer_Ball.png" />
+			<img src="https://cdn2.iconfinder.com/data/icons/iconslandsport/PNG/128x128/Soccer_Ball.png" />
+			<img src="https://cdn2.iconfinder.com/data/icons/iconslandsport/PNG/128x128/Soccer_Ball.png" />
+			<img src="https://cdn2.iconfinder.com/data/icons/iconslandsport/PNG/128x128/Soccer_Ball.png" />
+			<img src="https://cdn2.iconfinder.com/data/icons/iconslandsport/PNG/128x128/Soccer_Ball.png" />
+			<img src="https://cdn2.iconfinder.com/data/icons/iconslandsport/PNG/128x128/Soccer_Ball.png" />
+			<img src="https://cdn2.iconfinder.com/data/icons/iconslandsport/PNG/128x128/Soccer_Ball.png" />
+			<img src="https://cdn2.iconfinder.com/data/icons/iconslandsport/PNG/128x128/Soccer_Ball.png" />
+			<img src="https://cdn2.iconfinder.com/data/icons/iconslandsport/PNG/128x128/Soccer_Ball.png" />
+			<img src="https://cdn2.iconfinder.com/data/icons/iconslandsport/PNG/128x128/Soccer_Ball.png" />
+			<img src="https://cdn2.iconfinder.com/data/icons/iconslandsport/PNG/128x128/Soccer_Ball.png" />
+			<img src="https://cdn2.iconfinder.com/data/icons/iconslandsport/PNG/128x128/Soccer_Ball.png" />
+			<img src="https://cdn2.iconfinder.com/data/icons/iconslandsport/PNG/128x128/Soccer_Ball.png" />
+			
+		</div>
+		<div class="clear"></div>
+		<div class="code">
+			<pre class="js">$('#dblclick img').cssanimate({
+ effect: "rubberBand",
+ action: "dblclick"
+});</pre>
+		</div>
+	</div>
+
+	<div class="OrnekDiv">
+		<div class="title">Action None Örneği <span>(pulse)</span></div>
+		<div class="content" id="none">
+			<img src="https://cdn3.iconfinder.com/data/icons/forall/1062/love-128.png" />
+			<img src="https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678087-heart-128.png" />
+			<img src="https://cdn4.iconfinder.com/data/icons/ballicons-2-free/100/heart-128.png" />
+			<img src="https://cdn1.iconfinder.com/data/icons/freeline/32/heart_like_love_vote-128.png" />
+			<img src="https://cdn0.iconfinder.com/data/icons/ikooni-outline-free-basic/128/free-03-128.png" />
+			<img src="https://cdn0.iconfinder.com/data/icons/kameleon-free-pack-rounded/110/Heart-Watch-128.png" />
+			<img src="https://cdn4.iconfinder.com/data/icons/imoticons/105/imoticon_7-128.png" />
+			<img src="https://cdn1.iconfinder.com/data/icons/CrystalClear/128x128/apps/package_favourite.png" />
+			<img src="https://cdn3.iconfinder.com/data/icons/valenticons-2/64/valenticons-12-128.png" />
+			<img src="https://cdn1.iconfinder.com/data/icons/black-socicons/512/we_heart_it-128.png" />
+			<img src="https://cdn1.iconfinder.com/data/icons/anchor/128/heart.png" />
+			<img src="https://cdn4.iconfinder.com/data/icons/colorful/128/red-21.png" />
+			<img src="https://cdn3.iconfinder.com/data/icons/forall/1062/love-128.png" />
+			<img src="https://cdn3.iconfinder.com/data/icons/forall/1062/love-128.png" />
+			<img src="https://cdn3.iconfinder.com/data/icons/forall/1062/love-128.png" />
+			<img src="https://cdn3.iconfinder.com/data/icons/forall/1062/love-128.png" />
+			
+		</div>
+		<div class="clear"></div>
+		<div class="code">
+			<pre class="js">$('#none img').cssanimate({
+ effect: "pulse",
+ action: "none",
+ infinite: true,
+ autocolor: true,
+ duration: 10
+});</pre>
+		</div>
+	</div>
+
+
+
+
+
+
+<!-- Javascript Code.. -->
+	<script type="text/javascript" src="js/jquery.snippet.js"></script>
+    <script type="text/javascript" src="js/cssAnimate.min.js"></script>
+    <script>
+        $(function () {
+            $('#mouseoverli li').cssanimate({
+            	effect: "zoomIn",
+            	action: "mouseover",
+            	autocolor: true,
+            	duration: 10
+            });
+            $('#mouseenterli li').cssanimate({
+            	effect: "rollIn",
+            	action: "mouseenter",
+            	autocolor: true,
+            	infinite: true,
+            	duration: 10
+            });
+            $('#clickli li').cssanimate({
+            	effect: "hinge",
+            	action: "click"
+            });
+            $('#dblclick img').cssanimate({
+            	effect: "rubberBand",
+            	action: "dblclick"
+            });
+            $('#mouseoverli2 li').cssanimate({
+			 effect: "rotateIn",
+			 action: "mouseover",
+			 autocolor: true
+			});
+            $('#none img').cssanimate({
+            	effect: "pulse",
+            	action: "none",
+            	infinite: true,
+            	autocolor: true,
+            	duration: 10
+            });
+
+            $("pre.js").snippet("javascript",{style:"easter"});
+        });
+    </script>
+</body>
+</html>

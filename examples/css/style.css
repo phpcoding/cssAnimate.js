@@ -1,0 +1,100 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.OrnekDiv {
+	width: 95%;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #eee;
+	margin-bottom: 5px;
+
+}
+.OrnekDiv .title {
+	padding: 5px;
+	background-color: #eee;
+	color: #333;
+	font-size: 20px;
+	font-family: 'Comfortaa', cursive;
+}
+.OrnekDiv .title span {
+	padding: 5px;
+	background-color: #fff;
+	color: #DB0A5B;
+	font-weight: bold;
+	font-size: 12px;
+}
+.OrnekDiv .content {
+	list-style: none;
+}
+.clear{
+	clear: both;
+}
+
+#mouseoverli li {
+	float: left;
+	color: #333;
+	padding: 10px;
+	border: 1px solid #eee;
+	font-family: verdana;
+	font-size: 12px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+#mouseenterli li {
+	float: left;
+	color: #333;
+	padding: 10px;
+	border: 1px solid #eee;
+	font-family: verdana;
+	font-size: 12px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+#clickli li {
+	float: left;
+	color: #333;
+	padding: 10px;
+	border: 1px solid #eee;
+	font-family: verdana;
+	font-size: 12px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+#mouseoverli2 li {
+	float: left;
+	color: #333;
+	padding: 10px;
+	border: 1px solid #eee;
+	font-family: verdana;
+	font-size: 12px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+#dblclick img {
+	float: left;
+	color: #333;
+	padding: 10px;
+	border: 1px solid #eee;
+	font-family: verdana;
+	font-size: 12px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+#none img {
+	float: left;
+	color: #333;
+	padding: 10px;
+	border: 1px solid #eee;
+	font-family: verdana;
+	font-size: 12px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
